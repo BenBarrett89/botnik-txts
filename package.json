@@ -1,0 +1,26 @@
+{
+  "name": "botnik-txts",
+  "version": "0.0.1",
+  "description": "Node application for processing txt files for use with Botnik",
+  "main": "",
+  "license": "",
+  "scripts": {
+    "concatenate-all": "node scripts/concatenateAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenBarrett89/botnik-txts.git"
+  },
+  "author": "Ben Barrett (https://github.com/BenBarrett89)",
+  "bugs": {
+    "url": "https://github.com/BenBarrett89/botnik-txts/issues"
+  },
+  "homepage": "https://github.com/BenBarrett89/botnik-txts#readme",
+  "devDependencies": {
+    "ntl": "^1.2.0"
+  },
+  "dependencies": {
+    "directory-tree": "^2.0.0",
+    "merge-files": "^0.1.1"
+  }
+}
