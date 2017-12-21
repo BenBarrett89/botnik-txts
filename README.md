@@ -5,7 +5,7 @@
 
 Repo to store some `txt` file for using with [Botnik Predictive Writer app](http://botnik.org/apps/writer/). I will probably use this for lyric writing inspiration.
 
-After that I may look at writing some (probably [React](https://reactjs.org/)...) frontend application to create/manage `txt` files in this repository and to decide which files to combine together into a single file for use with Botnik Predictive Writer.
+At some point I may look at writing some (probably [React](https://reactjs.org/)...) frontend application to create/manage `txt` files in this repository and to decide which files to combine together into a single file for use with Botnik Predictive Writer.
 
 ## Scripts
 #### Overview
