@@ -15,11 +15,11 @@ const inputPathList = getFilepaths(tree).map(filepath => path.resolve(__dirname,
 console.log(`Found ${inputPathList.length} files to concatenate:`)
 inputPathList.forEach(inputPath => console.log(inputPath))
 
+console.log('Attempting merge')
 const outputPath = path.resolve(__dirname, ...TXT_FOLDER, 'txt.txt')
-mergeFiles(inputPathList, outputPath).then((status) => {
-  console.log('Merge attempted')
-  if (status === true) console.log('Merge successful')
-  else {
-    console.log(`Issue with merge:\n${status}`)
-  }
-})
+mergeFiles(inputPathList, outputPath)
+    .then((status) => {
+      if (status === true) console.log('Merge successful')
+      else throw new Error('Status is not true')
+    })
+    .catch(error => console.log(`Issue with merge:\n${error}`))
